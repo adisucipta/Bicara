@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "606729339713",
+    "firebase_url": "https://bicara-ecba3.firebaseio.com",
+    "project_id": "bicara-ecba3",
+    "storage_bucket": "bicara-ecba3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606729339713:android:2a80de3df7dc1dac",
+        "android_client_info": {
+          "package_name": "com.sharinproject.bicara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606729339713-ksjs821gnarhfcli890ul1sg08tp931d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sharinproject.bicara",
+            "certificate_hash": "A2B57FDBCFD521374BD605C5BFEBD4406FE14477"
+          }
+        },
+        {
+          "client_id": "606729339713-gtdlv744730t3d8rjf8k3nj0cj7fffmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArl0sZlwfjXktz7_6FKKYXdk29Kmkd9mk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606729339713-gtdlv744730t3d8rjf8k3nj0cj7fffmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

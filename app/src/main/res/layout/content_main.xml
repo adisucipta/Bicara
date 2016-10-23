@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sharinproject.bicara.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:background="@drawable/clouds_295278_640"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mainactivity_rv_chat"
+            android:padding = "10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+        <LinearLayout
+            android:background="@android:color/darker_gray"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="1">
+            <EditText
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/mainactivity_et_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:background="@drawable/edittext_background"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/mainactivity_btn_sendmessage"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_light"
+                android:tint="@android:color/white"
+                app:srcCompat = "@drawable/ic_send"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

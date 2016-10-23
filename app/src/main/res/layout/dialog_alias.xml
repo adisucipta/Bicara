@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="8dp"
+    android:background="@android:color/darker_gray"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Set your alias name"></TextView>
+    <EditText
+        android:background="@drawable/edittext_background"
+        android:padding="5dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogalias_et_name"
+        android:hint="ex: kirara"/>
+    <Button
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/dialogalias_btn_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Set"/>
+
+</LinearLayout>
